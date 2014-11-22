@@ -22,9 +22,9 @@
     "should": "^4.3.0"
   },
   "files": [
-    "lib",
+    "bin",
+    "src",
     "LICENSE",
-    "index.js",
-    "HISTORY.md"
+    "CHANGELOG.md"
   ]
 }
