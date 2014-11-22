@@ -2,7 +2,7 @@
  * Module dependencies.
  */
 
-var cli = require('minimist');
+var minimist = require('minimist');
 var path = require('path');
 var fs = require('fs');
 var js = require('..');
@@ -15,8 +15,7 @@ var args = process.argv.slice(2);
 var argv = minimist(args, {
     alias: {
       c: 'clean',
-      d: ['doc', 'docs']
-      i: [ 'interface', 'iface' ],
+      d: ['doc', 'docs'],
       h: 'help',
       l: 'lint',
       ls: 'list',
