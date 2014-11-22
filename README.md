@@ -15,26 +15,28 @@ npm install -g jscmd
 ```
 Js is a tool for managing JavaScript source code.
 
-Usage: js <command> [<input>]
+Usage:
+
+      js <command> [<input>]
 
 Commands:
 
-  clean       remove installed modules
-  doc         create documentation
-  fmt         run jsfmt on module resources
-  get         install modules
-  init        generate a module
-  install     install dependencies
-  lint        lint modules
-  list        list modules
-  test        test modules
-  version     print versions
+    clean       remove installed modules
+    doc         create documentation
+    fmt         run jsfmt on module resources
+    get         install modules
+    init        generate a module
+    install     install dependencies
+    lint        lint modules
+    list        list modules
+    test        test modules
+    version     print versions
 
 Example:
 
-  js fmt index.js
-  js doc -http=:6060
-  js lint -w index.js
+    js fmt index.js
+    js doc -http=:6060
+    js lint -w index.js
 
 Use "js help [topic]" for more information about that topic.
 ```
