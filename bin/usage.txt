@@ -9,7 +9,6 @@ Commands:
     clean       remove installed modules
     doc         create module documentation
     fmt         run jsfmt on module resources
-    get         install module dependencies
     init        generate a module
     lint        lint modules
     list        list modules
