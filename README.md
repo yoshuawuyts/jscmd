@@ -54,11 +54,11 @@ Use "js help [topic]" for more information about that topic.
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
 
-[npm-image]: https://img.shields.io/npm/v/ea.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/ea
-[travis-image]: https://img.shields.io/travis/yoshuawuyts/ea.svg?style=flat-square
-[travis-url]: https://travis-ci.org/yoshuawuyts/ea
-[coveralls-image]: https://img.shields.io/coveralls/yoshuawuyts/ea.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/yoshuawuyts/ea?branch=master
-[downloads-image]: http://img.shields.io/npm/dm/ea.svg?style=flat-square
-[downloads-url]: https://npmjs.org/package/ea
+[npm-image]: https://img.shields.io/npm/v/jscmd.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/jscmd
+[travis-image]: https://img.shields.io/travis/yoshuawuyts/jscmd.svg?style=flat-square
+[travis-url]: https://travis-ci.org/yoshuawuyts/jscmd
+[coveralls-image]: https://img.shields.io/coveralls/yoshuawuyts/jscmd.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/yoshuawuyts/jscmd?branch=master
+[downloads-image]: http://img.shields.io/npm/dm/jscmd.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/jscmd
