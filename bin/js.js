@@ -11,27 +11,40 @@ var js = require('..');
  * Process arguments.
  */
 
-help();
-//
-// var args = process.argv.slice(1);
-// if (!args.length || 'h' == args[0]) {
-//   help();
-//   process.exit(0);
-// }
+var args = process.argv.slice(2);
+var argv = minimist(args, {
+    alias: {
+      c: 'clean',
+      d: ['doc', 'docs']
+      i: [ 'interface', 'iface' ],
+      h: 'help',
+      l: 'lint',
+      ls: 'list',
+      t: 'test',
+      v: 'version'
+    },
+    boolean: [ 'h' ],
+    string: [ '_' ]
+});
 
 /**
- * js().
+ * Print usage.
  */
 
-function js() {
+if (argv.h || argv.help) return usage();
 
-}
+/**
+ * `Usage`.
+ * 
+ * @param {Number} code
+ * @api private
+ */
 
-
-function help(code) {
-  var rs = fs.createReadStream(__dirname + '/usage.txt');
+function usage(code) {
+  var rs = fs.createReadStream(path.join(__dirname, 'usage.txt'));
   rs.pipe(process.stdout);
-  if (code !== undefined) {
-    rs.on('end', function () { process.exit(code) });
-  }
+
+  if (code) rs.on('end', function() { 
+    process.exit(code);
+  });
 }
