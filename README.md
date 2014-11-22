@@ -25,7 +25,6 @@ Commands:
     doc         create documentation
     fmt         run jsfmt on module resources
     init        generate a module
-    install     install dependencies
     lint        lint modules
     list        list modules
     test        test modules
