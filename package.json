@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Js is a tool for managing JavaScript source code",
   "main": "lib/index.js",
+  "bin": {
+    "js": "bin/js.js"
+  },
   "scripts": {
     "test": "make test"
   },
